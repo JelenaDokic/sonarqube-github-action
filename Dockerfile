@@ -3,7 +3,7 @@ FROM openjdk:11
 LABEL maintainer="Palanisamy Easwaramoorthy"
 
 RUN apt-get update
-RUN apt-get install -y curl node
+RUN apt-get install -y curl nodejs
 
 WORKDIR /usr/src
 
