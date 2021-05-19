@@ -3,7 +3,7 @@ FROM openjdk:11
 LABEL maintainer="Palanisamy Easwaramoorthy"
 
 RUN apt-get update
-RUN apt-get install -y curl git tmux htop maven sudo
+RUN apt-get install -y curl node
 
 WORKDIR /usr/src
 
